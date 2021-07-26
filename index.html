@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Portfolio - Alex</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+        <div class="container"><button data-toggle="collapse" data-target="#navbarResponsive"
+                class="navbar-toggler navbar-toggler-right text-uppercase text-white rounded"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i
+                    class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="#portfolio">Work</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead bg-primary text-white text-center" style="background: rgb(24,80,188);">
+        <div class="container">
+            <h1>Alex</h1>
+            <h2 class="font-weight-light mb-0">Full Stack Developer</h2>
+        </div>
+    </header>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary">projects</h2>
+            <div class="row d-xl-flex justify-content-xl-center align-items-xl-center">
+                <div class="col-md-6 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-1">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i
+                                    class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/0download.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-2">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i
+                                    class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/1download.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-3">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i
+                                    class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/2download.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-4">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i
+                                    class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/3download.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-5">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i
+                                    class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/4download.jpg">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-6">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i
+                                    class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/5download.jpg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="bg-primary text-white mb-0">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-white">About</h2>
+            <div class="row">
+                <div class="col">
+                    <p class="text-center">
+                        Working with ReactJS, VueJS, NodeJS, ExpressJS, MongooseJS, MongoDB, CSS Grid, Flexbox, Git,
+                        Axios.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <input id="myEmail" class="btn btn-lg" value="alex.js.dev@protonmail.com" disabled />
+            <button id="copyBtn" class="btn btn-lg" onclick="copyToClipboard()">Copy Email To Clipboard</button>
+        </div>
+        </div>
+        </div>
+    </section>
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright © 2021</small></div>
+    </div>
+    <div class="d-lg-none scroll-to-top position-fixed rounded"><a
+            class="d-block js-scroll-trigger text-center text-white rounded" href="#page-top"><i
+                class="fa fa-chevron-up"></i></a></div>
+
+
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close"><span class="x-close" aria-hidden="true">×</span class="x-close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Responsive Sass Grid</h2>
+                                <img class="img-fluid mb-5" src="assets/img/portfolio/0download.jpg">
+                                <p class="mb-5">
+                                    Product Purpose<br/>
+                                    Display mobile, tablet, and desktop layout variation utilizing CSS Grid with Sass.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto portfolio-modal-dismiss"
+                        role="button" href="https://alexqdev.github.io/sass-grid/" target="_blank"
+                        rel="noopener noreferrer"><i class="fa fa-eye"></i>&nbsp;View Live Project</a></div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto portfolio-modal-dismiss"
+                        role="button" href="https://github.com/alexqdev/sass-grid" target="_blank"
+                        rel="noopener noreferrer"><i class="fa fa-eye"></i>&nbsp;View Source Code</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-2">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close"><span class="x-close" aria-hidden="true">×</span class="x-close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">ES6+ eCommerce</h2>
+                                <img class="img-fluid mb-5" src="assets/img/portfolio/1download.jpg">
+                                <p class="mb-5">Product Purpose<br/>
+                                    an eCommerce website with registration, login, authentication, filter, and local/session storage, utilizing ES6+ JS, CSS Grid, and BootstrapCDN.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto portfolio-modal-dismiss"
+                        role="button" href="https://alexqdev.github.io/es6-js/" target="_blank"
+                        rel="noopener noreferrer"><i class="fa fa-eye"></i>&nbsp;View Live Project</a></div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto portfolio-modal-dismiss"
+                        role="button" href="https://github.com/alexqdev/es6-js" target="_blank"
+                        rel="noopener noreferrer"><i class="fa fa-eye"></i>&nbsp;View Source Code</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-3">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close"><span class="x-close" aria-hidden="true">×</span class="x-close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">ReactJS Card Matching Game</h2>
+                                <img class="img-fluid mb-5" src="assets/img/portfolio/2download.jpg">
+                                <p class="mb-5">Product Purpose<br/>
+                                    A 2 player flip and match card game with 9 total cards. Built utilizing CSS GRID, SASS, ES6+ and ReactJS.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto portfolio-modal-dismiss"
+                        role="button" href="https://alexqdev.github.io/react/" target="_blank"
+                        rel="noopener noreferrer"><i class="fa fa-eye"></i>&nbsp;View Live Project</a></div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto portfolio-modal-dismiss"
+                        role="button" href="https://github.com/alexqdev/react" target="_blank"
+                        rel="noopener noreferrer"><i class="fa fa-eye"></i>&nbsp;View Source Code</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-4">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close"><span class="x-close" aria-hidden="true">×</span class="x-close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">VueJS Card Matching Game</h2>
+                                <img class="img-fluid mb-5" src="assets/img/portfolio/3download.jpg">
+                                <p class="mb-5">Product Purpose<br/>
+                                    A 2 player flip and match card game with 9 total cards. Built utilizing FlexBox, LESS, ES6+ and VueJS.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto portfolio-modal-dismiss"
+                        role="button" href="https://alexqdev.github.io/vuex/" target="_blank"
+                        rel="noopener noreferrer"><i class="fa fa-eye"></i>&nbsp;View Live Project</a></div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto portfolio-modal-dismiss"
+                        role="button" href="https://github.com/alexqdev/vuex" target="_blank"
+                        rel="noopener noreferrer"><i class="fa fa-eye"></i>&nbsp;View Source Code</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-5">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close"><span class="x-close" aria-hidden="true">×</span class="x-close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Node RESTful API</h2>
+                                <img class="img-fluid mb-5" src="assets/img/portfolio/4download.jpg">
+                                <p class="mb-5">Products Purpose<br/>
+                                    A RESTful API utilizing nodejs, reactjs, expressjs, mongoose and mongodb.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto portfolio-modal-dismiss"
+                        role="button" href="https://alexqdev-nodejs-rest-api.herokuapp.com/" target="_blank"
+                        rel="noopener noreferrer"><i class="fa fa-eye"></i>&nbsp;View Live Project</a></div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto portfolio-modal-dismiss"
+                        role="button" href="https://github.com/alexqdev/nodejs-api" target="_blank"
+                        rel="noopener noreferrer"><i class="fa fa-eye"></i>&nbsp;View Source Code</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-6">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close"><span class="x-close" aria-hidden="true">×</span class="x-close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">MERN Login and Authentication App</h2>
+                                <img class="img-fluid mb-5" src="assets/img/portfolio/5download.jpg">
+                                <p class="mb-5">Products Purpose<br/>
+                                    Login and Authentication App built utilizing the M.E.R.N Development Stack.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto portfolio-modal-dismiss"
+                        role="button" href="https://alexqdev-login-authentication.herokuapp.com/" target="_blank"
+                        rel="noopener noreferrer"><i class="fa fa-eye"></i>&nbsp;View Live Project</a></div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto portfolio-modal-dismiss"
+                        role="button" href="https://github.com/alexqdev/mern-auth" target="_blank"
+                        rel="noopener noreferrer"><i class="fa fa-eye"></i>&nbsp;View Source Code</a></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/freelancer.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+.form-control{
+  border:1px solid #3767d5 !important;
+  border-radius: 3px !important;
+  padding-left: 10px !important;
+}
+.form-group{
+  display: grid;
+  justify-content: center;
+}
+.masthead,
+.navbar-toggler,
+#about,
+.active,
+.portfolio-item-caption,
+.btn{
+  background: #3767d5 !important;
+  color: #e7ecef;
+}
+
+.btn{
+  border: none !important;
+}
+
+.navbar-toggler:hover{
+  background-color: #2b50ad !important;
+}
+
+#about p{
+  width: 55vw !important;
+  margin: 0 auto;
+}
+
+.x-close{
+  color: #3767d5 !important;
+}
+.x-close:hover{
+  color: #2b50ad !important;
+}
+
+.img-fluid{
+  width: 400px !important;
+  height: 250px !important;
+}
+
+#myEmail,
+#copyBtn{
+  width: 100vw !important;
+  max-width: 600px !important;
+  border-radius: 0 !important;
+  font-size: 2em !important;
+  font-weight: bold !important;
+  margin: 0 auto !important;
+}
+#copyBtn:hover{
+  color: #18bc9c !important;
+}
+#myEmail:hover{
+  color: #e7ecef !important;
+}
+
+#contact,
+#contact .container{
+  display: grid !important;
+  justify-content: center !important;
+}
